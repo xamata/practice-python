@@ -8,9 +8,9 @@ def even_odd(arr):
 		else: 
 			arr[next_even], arr[next_odd] = arr[next_odd], arr[next_even]
 			next_odd -=1
-
+		print(arr)
 def main():
-	arr = [1,5,7,3,2,6,3,3,4,8]
+	arr = [1,2,3,4,5,6,7,8,9]
 	even_odd(arr)
 	print(arr)
 

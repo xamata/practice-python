@@ -1,5 +1,7 @@
 # arrays.py - Write out the methods for an array
 
+import numpy as np
+
 def arr_test(arr):
 	print(arr)
 
@@ -20,6 +22,12 @@ def arr_test(arr):
 	# sort puts array in order
 	arr.sort()
 	print(arr)
+
+	# arrays size using numpy
+	print(np.size(arr, 0))
+
+	# len of array
+	print(len(arr))
 
 def main():
 	arr = [1,5,3,6,2,7]
